@@ -26,8 +26,8 @@ const IndexPage = () => (
       </b>{" "}
       <ul>
         <li>
-          Drinking one shot / one bottle of beer otherwise you WILL be thrown
-          out!
+          Drinking one shot / one bottle of beer for every 50 lbs you weigh
+          otherwise you WILL be thrown out!
         </li>
         <li>NO CS 374 TALK (DFA, NFA, REGEX ARE TABOOOO!)</li>
       </ul>
