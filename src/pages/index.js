@@ -14,7 +14,8 @@ const IndexPage = () => (
     </p>
     <p>
       <b style={{ fontFamily: `Great Vibes`, fontSize: `2em` }}>When:</b>{" "}
-      Saturday, October 5th at 8 PM
+      Saturday, October 5th at 8 PM (RSVP by 11:11:69 PM on Thursday, October
+      3rd)
     </p>
     <p>
       <b style={{ fontFamily: `Great Vibes`, fontSize: `2em` }}>Where:</b> 55
