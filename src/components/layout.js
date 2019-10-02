@@ -35,7 +35,11 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>Built with ❤️by Curie, Danielle, and Aryn</footer>
+        <footer>
+          Built with <i class="fa fa-heart-o"></i> by Curie, Danielle, and Aryn
+          <br></br>
+          This is an invitation but not an invitation; a friendly obligation :)
+        </footer>
       </div>
     </>
   );

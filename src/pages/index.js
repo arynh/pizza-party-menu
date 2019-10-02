@@ -1,30 +1,53 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Menu" />
-    <h1>Pizzas</h1>
-    <ul>
-      <li>
-        Goat cheese, toasted walnut, pear, sage, balsamic reduction, sea salt
-      </li>
-      <li>Tomato, mozzarella, basil, olive oil, pecorino romano</li>
-      <li>
-        Fennel seed, spicy sausage, mushroom, sweet potato, spicy tomato sauce
-      </li>
-      <li>Something on a cauliflower dough</li>
-    </ul>
-    <h1>Drinks</h1>
-    <ul>
-      <li>idk alcohol? does it really matter</li>
-    </ul>
-    <h1>Dessert</h1>
-    <ul>
-      <li>Bananas foster over vanilla ice cream</li>
-    </ul>
+    <SEO title="Curie, Danielle, and Aryn's Pizza Par-tayyy!" />
+    <p>
+      To commemorate the end of the semester's first midterm CHAOS, we are
+      throwing a hand-made pizza party /kickback! Pls enjoy our CLASSSYYYYY
+      invitation!
+    </p>
+    <p>
+      <b style={{ fontFamily: `Great Vibes`, fontSize: `2em` }}>When:</b>{" "}
+      Saturday, October 5th at 8 PM
+    </p>
+    <p>
+      <b style={{ fontFamily: `Great Vibes`, fontSize: `2em` }}>Where:</b> 55
+      East Green St
+    </p>
+    <p>
+      <b style={{ fontFamily: `Great Vibes`, fontSize: `2em` }}>
+        Requirements Upon Arrival:
+      </b>{" "}
+      <ul>
+        <li>
+          Drinking one shot / one bottle of beer otherwise you WILL be thrown
+          out!
+        </li>
+        <li>NO CS 374 TALK (DFA, NFA, REGEX ARE TABOOOO!)</li>
+      </ul>
+    </p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZMWdsGLN4p96EEqr774VXljzSy0gSyLo4QEy7lb4rpsYHQA/viewform?usp=sf_link">
+      <button
+        class="btn default"
+        style={{ fontFamily: `Great Vibes`, fontSize: `2em` }}
+      >
+        {"{rsvp}"}
+      </button>
+    </a>
+    <Link to="/menu">
+      <button
+        class="btn default"
+        style={{ fontFamily: `Great Vibes`, fontSize: `2em` }}
+      >
+        {"{menu}"}
+      </button>
+    </Link>
   </Layout>
 );
 
